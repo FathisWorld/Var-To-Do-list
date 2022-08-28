@@ -196,7 +196,7 @@ form {
     }
     form {
         background-color: #ddd;
-        width: 375px;
+        width: 316px;
         display: flex;
         justify-content: space-between;
         margin: 20px auto;
@@ -215,7 +215,7 @@ form {
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
-        width: 248px;
+        width: 192px;
         height: 45px;
         background-color: rgb(243 243 243);
         margin: 10px;
@@ -239,7 +239,6 @@ form {
     }
     .tasks {
     background-color: #ddd;
-    width: 800px;
     height: fit-content;
     display: flex;
     justify-content: space-between;

@@ -1,62 +1,8 @@
-/* ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    list-style: none;
-    width: 400px;
-    background-color: #ddd;
-    margin: 20px auto;
-}
-
-ul li {
-    width: 60px;
-    height: 60px;
-    border: 2px solid transparent;
-    opacity: 0.4;
-    cursor: pointer;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-
-ul li.active,
-ul li:hover {
-    opacity: 1;
-}
-
-ul li:nth-child(1) {
-    background-color: red;
-}
-
-ul li:nth-child(2) {
-    background-color: orange;
-}
-
-ul li:nth-child(3) {
-    background-color: black;
-}
-
-ul li:nth-child(4) {
-    background-color: green;
-}
-
-.container {
-    width: 600px;
-    height: 300px;
-    border: 1px solid #eee;
-    margin: 20px auto;
-    background-color: red;
-} */
-
 .logo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     gap: 555px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffd488;
 }
@@ -238,4 +184,58 @@ form {
     color: yellow;
     font-size: 30px;
     font-weight: bolder;
+}
+
+@media (max-width:600px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        gap: 555px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffd488;
+    }
+    form {
+        background-color: #ddd;
+        width: 316px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #add {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        width: 192px;
+        height: 45px;
+        background-color: rgb(243 243 243);
+        margin: 10px;
+        font-size: 30px;
+    }
+    #sub {
+        width: 83px;
+        height: 47px;
+        border: none;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        background-color: #ffd689;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
 }
